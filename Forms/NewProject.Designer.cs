@@ -53,7 +53,7 @@ namespace Gen.GenForms
             this.btnLocation.Location = new System.Drawing.Point(491, 276);
             this.btnLocation.Name = "btnLocation";
             this.btnLocation.Size = new System.Drawing.Size(30, 23);
-            this.btnLocation.TabIndex = 0;
+            this.btnLocation.TabIndex = 4;
             this.btnLocation.Text = "...";
             this.btnLocation.UseVisualStyleBackColor = true;
             this.btnLocation.Click += new System.EventHandler(this.btnLocation_Click);
@@ -64,7 +64,7 @@ namespace Gen.GenForms
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 13);
-            this.label1.TabIndex = 1;
+            this.label1.TabIndex = 9;
             this.label1.Text = "Project ID (6 characters)";
             // 
             // txtID
@@ -75,7 +75,7 @@ namespace Gen.GenForms
             this.txtID.MaxLength = 6;
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(95, 23);
-            this.txtID.TabIndex = 2;
+            this.txtID.TabIndex = 0;
             // 
             // btnCancel
             // 
@@ -85,7 +85,7 @@ namespace Gen.GenForms
             this.btnCancel.Location = new System.Drawing.Point(446, 417);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 25);
-            this.btnCancel.TabIndex = 7;
+            this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnCancel.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -100,7 +100,7 @@ namespace Gen.GenForms
             this.btnAccept.Location = new System.Drawing.Point(365, 417);
             this.btnAccept.Name = "btnAccept";
             this.btnAccept.Size = new System.Drawing.Size(75, 25);
-            this.btnAccept.TabIndex = 6;
+            this.btnAccept.TabIndex = 5;
             this.btnAccept.Text = "Accept";
             this.btnAccept.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnAccept.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -114,7 +114,7 @@ namespace Gen.GenForms
             this.label2.Location = new System.Drawing.Point(12, 261);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 13);
-            this.label2.TabIndex = 8;
+            this.label2.TabIndex = 13;
             this.label2.Text = "Project Location";
             // 
             // txtLocation
@@ -123,7 +123,7 @@ namespace Gen.GenForms
             this.txtLocation.Location = new System.Drawing.Point(15, 277);
             this.txtLocation.Name = "txtLocation";
             this.txtLocation.Size = new System.Drawing.Size(470, 21);
-            this.txtLocation.TabIndex = 9;
+            this.txtLocation.TabIndex = 3;
             // 
             // txtSVNLocation
             // 
@@ -132,7 +132,7 @@ namespace Gen.GenForms
             this.txtSVNLocation.Location = new System.Drawing.Point(15, 337);
             this.txtSVNLocation.Name = "txtSVNLocation";
             this.txtSVNLocation.Size = new System.Drawing.Size(470, 21);
-            this.txtSVNLocation.TabIndex = 11;
+            this.txtSVNLocation.TabIndex = 8;
             // 
             // label3
             // 
@@ -140,7 +140,7 @@ namespace Gen.GenForms
             this.label3.Location = new System.Drawing.Point(12, 321);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(159, 13);
-            this.label3.TabIndex = 10;
+            this.label3.TabIndex = 14;
             this.label3.Text = "SVN Location / Server Location";
             // 
             // txtFolderName
@@ -151,7 +151,7 @@ namespace Gen.GenForms
             this.txtFolderName.MaxLength = 35;
             this.txtFolderName.Name = "txtFolderName";
             this.txtFolderName.Size = new System.Drawing.Size(218, 23);
-            this.txtFolderName.TabIndex = 13;
+            this.txtFolderName.TabIndex = 1;
             this.txtFolderName.TextChanged += new System.EventHandler(this.txtFolderName_TextChanged);
             // 
             // label4
@@ -160,7 +160,7 @@ namespace Gen.GenForms
             this.label4.Location = new System.Drawing.Point(12, 66);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 13);
-            this.label4.TabIndex = 12;
+            this.label4.TabIndex = 10;
             this.label4.Text = "Folder Name";
             // 
             // txtFolderNameFinal
@@ -172,7 +172,7 @@ namespace Gen.GenForms
             this.txtFolderNameFinal.MaxLength = 35;
             this.txtFolderNameFinal.Name = "txtFolderNameFinal";
             this.txtFolderNameFinal.Size = new System.Drawing.Size(218, 23);
-            this.txtFolderNameFinal.TabIndex = 15;
+            this.txtFolderNameFinal.TabIndex = 7;
             // 
             // label5
             // 
@@ -180,7 +180,7 @@ namespace Gen.GenForms
             this.label5.Location = new System.Drawing.Point(12, 128);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(92, 13);
-            this.label5.TabIndex = 14;
+            this.label5.TabIndex = 11;
             this.label5.Text = "Folder Name Final";
             // 
             // txtDatabaseName
@@ -191,7 +191,7 @@ namespace Gen.GenForms
             this.txtDatabaseName.MaxLength = 30;
             this.txtDatabaseName.Name = "txtDatabaseName";
             this.txtDatabaseName.Size = new System.Drawing.Size(218, 23);
-            this.txtDatabaseName.TabIndex = 17;
+            this.txtDatabaseName.TabIndex = 2;
             // 
             // label6
             // 
@@ -199,7 +199,7 @@ namespace Gen.GenForms
             this.label6.Location = new System.Drawing.Point(12, 193);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 13);
-            this.label6.TabIndex = 16;
+            this.label6.TabIndex = 12;
             this.label6.Text = "Database Name";
             // 
             // NewProject

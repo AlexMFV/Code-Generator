@@ -20,7 +20,13 @@ namespace Gen.GenForms
             InitializeComponent();
             _isNew = isNew;
             this.FormClosing += NewProject_FormClosing;
-            txtLocation.Text = Path.Combine(Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.SystemX86)), "Projects");
+
+            //TODO: Should load all values from cache regarding global variables, etc (MAYBE SHOULD BE PUT INSIDE APPLICATION.RUN)
+
+            if(GlobalFunctions.USE_MAIN_DISK)
+                txtLocation.Text = Path.Combine(Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.SystemX86)), GlobalFunctions.PROJECTS_FOLDER_NAME);
+            else
+                txtLocation.Text = Path.Combine(GlobalFunctions.PROJECTS_FOLDER_LOCATION, GlobalFunctions.PROJECTS_FOLDER_NAME);
         }
 
         private void NewProject_FormClosing(object sender, FormClosingEventArgs e)
@@ -38,7 +44,8 @@ namespace Gen.GenForms
         {
             _isNew = false;
 
-
+            //When creating a new project, if accepted add it to the database (path, names, properties, etc)
+            //Have a column on the DB that sets the project as the default.
         }
 
         private void btnLocation_Click(object sender, EventArgs e)

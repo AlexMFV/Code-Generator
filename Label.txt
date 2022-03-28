@@ -1,0 +1,4 @@
+﻿//NEWFEATURE:	= New planned feature, that is yet to be implemented
+//BUGFIX:		= Detected bug that usually does not affect the usage of the application
+//SEVEREBUG:	= Detected bug that needs attention ASAP as it might cause problems
+//TODO:			= Something thats planned and possibly in the works
