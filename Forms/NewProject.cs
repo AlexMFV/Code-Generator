@@ -21,7 +21,7 @@ namespace Gen.GenForms
             _isNew = isNew;
             this.FormClosing += NewProject_FormClosing;
 
-            //TODO: Should load all values from cache regarding global variables, etc (MAYBE SHOULD BE PUT INSIDE APPLICATION.RUN)
+            //TODO: Should load all values from cache (or DB) regarding global variables, etc (MAYBE SHOULD BE PUT INSIDE APPLICATION.RUN)
 
             if(GlobalFunctions.USE_MAIN_DISK)
                 txtLocation.Text = Path.Combine(Path.GetPathRoot(Environment.GetFolderPath(Environment.SpecialFolder.SystemX86)), GlobalFunctions.PROJECTS_FOLDER_NAME);

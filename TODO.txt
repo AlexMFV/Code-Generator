@@ -1,0 +1,6 @@
+﻿- When the program is first opened, check the DB installed in the system and provide links
+or updated information on what's missing on the system (which SQL version is needed/installed)
+
+-Check if there is a DB for this xGen instance, if not ask the user to create one
+	- This database will contain all the configurations for this instance, such as variables, 
+	paths and other common variables for the projects
